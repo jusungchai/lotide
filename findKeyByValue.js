@@ -8,10 +8,10 @@ const assertEqual = function (actual, expected) {
 };
 
 const findKeyByValue = function (object, value){
-  let objectArr = Object.keys(object);  
-  let keyArr = Object.values(object);  
-  let index = keyArr.indexOf(value);
-  return index > -1 ? objectArr[index] : undefined;  
+  let keyArr = Object.keys(object);  
+  let valueArr = Object.values(object);  
+  let index = valueArr.indexOf(value);
+  return index > -1 ? keyArr[index] : undefined;  
 };
 
 const bestTVShowsByGenre = { 
