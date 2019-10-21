@@ -1,4 +1,4 @@
-const eqArrays = function (a1, a2) {
+/* const eqArrays = function (a1, a2) {
   if (a1.length !== a2.length) return false;
   else {
     for (let i = 0; i < a1.length; i++) {
@@ -14,7 +14,7 @@ const assertArraysEqual = function (a1, a2) {
   } else {
     console.log(`\u{1f605} \u{1f605} \u{1f605} Assertion Failed: ${a1} !== ${a2}`);
   }
-};
+}; */
 
 const middle = function (arr) {
   if (arr.length === 0 || arr.length === 1 || arr.length === 2) {
@@ -26,10 +26,12 @@ const middle = function (arr) {
   }
 };
 
-assertArraysEqual(middle([1]), []);
+module.exports = middle;
+
+/* assertArraysEqual(middle([1]), []);
 assertArraysEqual(middle([1, 2]), []);
 assertArraysEqual(middle([1, 2, 3]), [2]);
 assertArraysEqual(middle([1, 2, 3, 4, 5]), [3]);
 assertArraysEqual(middle([1, 2, 3, 4]), [2, 3]);
-assertArraysEqual(middle([1, 2, 3, 4, 5, 6]), [3, 4]);
+assertArraysEqual(middle([1, 2, 3, 4, 5, 6]), [3, 4]); */
 
