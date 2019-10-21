@@ -22,7 +22,7 @@ const countLetters = function (str){
 
 module.exports = countLetters;
 
-console.log(countLetters("yolo"));
+/* console.log(countLetters("yolo"));
 console.log(countLetters("lighthouse in the house"));
 console.log(countLetters("  lighthouse in the hou   se  "));
-console.log(countLetters(" "));
+console.log(countLetters(" ")); */

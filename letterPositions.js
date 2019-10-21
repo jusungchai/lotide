@@ -38,4 +38,4 @@ module.exports = letterPositions;
 
 //console.log(letterPositions("hello").a);
 
-assertArraysEqual(letterPositions("hello").e, [1]);
+/* assertArraysEqual(letterPositions("hello").e, [1]); */
