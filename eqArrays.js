@@ -1,3 +1,5 @@
+const assert = require('chai').assert;
+
 // FUNCTION IMPLEMENTATION
 /* const assertEqual = function (actual, expected) {
   if (actual === expected) {
