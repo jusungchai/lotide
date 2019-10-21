@@ -7,6 +7,8 @@ const assertEqual = function(actual, expected) {
   }
 }; */
 
+const assertEqual = require('./assertEqual');
+
 let tail = function(arr) {
   if (arr.length <= 1) {
     return [];
